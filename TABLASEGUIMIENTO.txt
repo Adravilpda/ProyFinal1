@@ -1,0 +1,9 @@
+create table seguimiento(
+nroTramite int,
+codFlujo	varchar(50),
+copProceso	varchar(50),
+codUsuario varchar(50),
+fechaini	date,
+fechafin	date
+
+)

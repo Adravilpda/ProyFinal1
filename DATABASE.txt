@@ -1,0 +1,9 @@
+insert into flujoproceso values ('F1','P1','datos','U','P2','crearcuenta.inc.php');
+insert into flujoproceso values ('F1','P2','datos','U','P3','acceso.inc.php');
+insert into flujoproceso values ('F1','P3','datos','U','P4','generarcodigo.inc.php');
+insert into flujoproceso values ('F1','P4','temporal','U','IF','verificardocumentos.inc.php');
+insert into flujoproceso values ('F1','P5','verificacion','K','P6','verificarpersonal.inc.php');
+insert into flujoproceso values ('F1','P6','notificacion','U','IF','bandejaentrada.inc.php');
+insert into flujoproceso values ('F1','P7','matriculacion','K','P8','crearmatricula.inc.php');
+insert into flujoproceso values ('F1','P8','asignacion','K','P9','asignarparalelo.inc.php');
+insert into flujoproceso values ('F1','P9','notificacion','U','FIN','bandejaentrada.inc.php');
